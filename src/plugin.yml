@@ -1,0 +1,12 @@
+name: AntiFalldamage
+version: 1.0
+main: me.whitescan.antifalldamage.AntiFalldamage
+author: Whitescan
+api-version: 1.16
+description: A simple falldamage protection
+
+commands:
+  antifalldamage:
+    description: Admit to a rulebreaking
+    permission: antifalldamage.use
+    usage: </command>
