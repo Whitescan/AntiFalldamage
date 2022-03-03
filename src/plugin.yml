@@ -1,5 +1,6 @@
-name: AntiFalldamage
-version: 1.0
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
 main: me.whitescan.antifalldamage.AntiFalldamage
 author: Whitescan
 api-version: 1.16
