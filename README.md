@@ -1,5 +1,5 @@
 # AntiFalldamage
-A simple falldamage protection
+A simple player falldamage protection
 
 # Java Version
 This project uses Java 17. Using the same Java Version when using it is recommended.
