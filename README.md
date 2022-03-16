@@ -6,3 +6,9 @@ This project uses Java 17. Using the same Java Version when using it is recommen
 
 # Minecraft Version
 This plugin supports Minecraft 1.18.x Java Edition.
+
+# Commands
+/antifalldamage - Toggle your fall protection.
+
+# Permissions
+- antifalldamage.use to allow the usage of the /antifalldamage command 
