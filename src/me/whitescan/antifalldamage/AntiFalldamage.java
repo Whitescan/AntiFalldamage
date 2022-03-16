@@ -1,4 +1,3 @@
-
 package me.whitescan.antifalldamage;
 
 import java.util.ArrayList;
@@ -60,12 +59,12 @@ public class AntiFalldamage extends JavaPlugin implements CommandExecutor, Liste
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
 		if (!sender.hasPermission("antifalldamage.use")) {
-			sender.sendMessage("§cSorry, you are not allowed to use this command.");
+			sender.sendMessage("Â§cSorry, you are not allowed to use this command.");
 			return true;
 		}
 
 		if (!(sender instanceof Player)) {
-			sender.sendMessage("§cSorry, this command only works for players!");
+			sender.sendMessage("Â§cSorry, this command only works for players!");
 			return true;
 		}
 
@@ -73,11 +72,11 @@ public class AntiFalldamage extends JavaPlugin implements CommandExecutor, Liste
 
 		if (antifalldamage.contains(actor.getUniqueId())) {
 			antifalldamage.remove(actor.getUniqueId());
-			actor.sendMessage("§eFallprotection toggled: §coff");
+			actor.sendMessage("Â§eFallprotection toggled: Â§coff");
 
 		} else {
 			antifalldamage.add(actor.getUniqueId());
-			actor.sendMessage("§eFallprotection toggled: §aon");
+			actor.sendMessage("Â§eFallprotection toggled: Â§aon");
 		}
 
 		return true;

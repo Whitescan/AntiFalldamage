@@ -1,13 +1,12 @@
 name: ${project.name}
 version: ${project.version}
 description: ${project.description}
-main: me.whitescan.antifalldamage.AntiFalldamage
 author: Whitescan
-api-version: 1.16
-description: A simple falldamage protection
+api-version: 1.18
+main: me.whitescan.antifalldamage.AntiFalldamage
 
 commands:
   antifalldamage:
-    description: Admit to a rulebreaking
+    description: Toggle antifalldamage for a player
     permission: antifalldamage.use
     usage: </command>
